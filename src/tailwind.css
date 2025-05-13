@@ -1,0 +1,24 @@
+/* Menjadi: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --color-bg: #f8fafc;
+    --color-text-color: #1e293b;
+    --color-primary: #1d4ed8;
+    --color-accent: #f59e0b;
+    --color-bg-color-dark: #0f172a;
+    --color-text-color-dark: #e2e8f0;
+    --color-primary-dark: #60a5fa;
+    --color-accent-dark: #fbbf24;
+    --color-card: #ffffff;
+    --color-card-dark: #1e293b;
+}
+
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 0.3s, color 0.3s;
+}
